@@ -12,7 +12,7 @@ const Profile = () => {
                 <div className='flex flex-col bg-slate-200 h-screen w-screen 
                 items-center justify-center'> 
                 <h1 className='font-bold text-3xl mb-20 hover:scale-110 
-                hover:text-purple-600 hover:underline'>Please Provide All the Details</h1>
+                hover:text-purple-600 hover:underline text-center m-2'>Please Provide All the Details</h1>
                 </div>
             </>
         );
@@ -21,7 +21,7 @@ const Profile = () => {
             <Navbar />
             <div className='flex flex-col bg-slate-200 h-screen items-center 
             justify-center'>
-                <h2 className='font-bold text-3xl mb-20 hover:scale-110 hover:text-purple-600 hover:underline'>
+                <h2 className='font-bold text-3xl mb-20 hover:scale-110 hover:text-purple-600 hover:underline text-center'>
                     {user.name}'s Horoscope Result</h2>
                 {num==1 && (<p 
                     className='max-w-[calc(100%-60px)] text-center text-lg'>
